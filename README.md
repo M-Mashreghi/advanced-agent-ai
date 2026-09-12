@@ -72,7 +72,7 @@ An advanced extension of the Deep Learning final **Agent AI** project, built aro
 Recommended: Python 3.11.
 
 ```bash
-ollama pull gemma3:1b
+ollama pull gemma3:4b
 ollama pull nomic-embed-text
 python -m pip install -r requirements.txt
 ```
@@ -123,7 +123,7 @@ The evaluator reports games, wins, win rate, average turns, best game, and worst
 
 ## Notes
 
-- The default `gemma3:1b` is below the assignment's 7B-parameter limit.
+- The default `gemma3:4b` is below the assignment's 7B-parameter limit.
 - PDF indexes are persisted under `cache/` and reused.
 - RAG uses `IndexFlatL2` plus BM25 and injects exactly three final passages.
 - Exa retrieves a larger candidate set, then local embeddings select three web results before summarization.

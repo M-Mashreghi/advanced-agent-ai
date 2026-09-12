@@ -7,7 +7,7 @@ CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 OLLAMA_CHAT_URL = os.getenv("OLLAMA_CHAT_URL", "http://localhost:11434/api/chat")
 OLLAMA_EMBED_URL = os.getenv("OLLAMA_EMBED_URL", "http://localhost:11434/api/embed")
-CHAT_MODEL = os.getenv("CHAT_MODEL", "gemma3:1b")
+CHAT_MODEL = os.getenv("CHAT_MODEL", "gemma3:4b")
 EMBED_MODEL = os.getenv("EMBED_MODEL", "nomic-embed-text")
 EXA_API_KEY = os.getenv("EXA_API_KEY", "")
 EXA_SEARCH_URL = "https://api.exa.ai/search"
