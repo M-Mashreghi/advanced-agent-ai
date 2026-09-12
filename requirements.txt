@@ -1,0 +1,7 @@
+streamlit
+requests
+pymupdf
+numpy
+faiss-cpu
+rank-bm25
+python-dotenv
